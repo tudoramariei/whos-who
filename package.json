@@ -24,11 +24,6 @@
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "npm run lint -- --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
   "eslintConfig": {
     "env": {
       "browser": true,
